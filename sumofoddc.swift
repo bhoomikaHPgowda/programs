@@ -1,3 +1,5 @@
+//The alignment is not proper. Lime 6 adn 7 should have more tab space. line 14 should have more tab space.
+
 let oddsum = {
     ( n : Int)
      in
@@ -9,7 +11,7 @@ let oddsum = {
            
       }
     }
-print(total)  
+print(total)  //Never print the result directly inside the function. Always return the final result and the receiver can print it.
 }
 
 oddsum(3)

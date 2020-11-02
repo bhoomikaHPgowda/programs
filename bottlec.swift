@@ -1,7 +1,7 @@
 //Never name a function as somefunction. I use it in my classes for demo purpose. Function names should accurately indicate what is it doing.
 //When you open a flower bracket, it should be in the same line as that of the if condition or for loops or while loop. Do not provide the opening bracket in the next line.
 
-let bottlesong = {
+let bottleSong = {
   (num: Int ) in
   var bottle = "no bottles of water"
   if (num == 0) { //Its always better to inclose the condition checks within brackets. The codt becomes more easy to understand.
